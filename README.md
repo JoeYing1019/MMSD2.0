@@ -66,5 +66,32 @@ python3 main.py --model MV_CLIP --text_name text_json_clean --weight_decay 0.005
 
 
 
-If you have any question, please issue the project or email [Shijue Huang](mailto:joehsj310@gmail.com) or [Libo Qin](mailto:lbqin@csu.edu.cn) and we will reply you soon.
+## Reference
 
+If you find this project useful for your research, please consider citing the following paper:
+
+```
+@inproceedings{qin-etal-2023-mmsd2,
+    title = "{MMSD}2.0: Towards a Reliable Multi-modal Sarcasm Detection System",
+    author = "Qin, Libo  and
+      Huang, Shijue  and
+      Chen, Qiguang  and
+      Cai, Chenran  and
+      Zhang, Yudi  and
+      Liang, Bin  and
+      Che, Wanxiang  and
+      Xu, Ruifeng",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.689",
+    pages = "10834--10845",
+    abstract = "Multi-modal sarcasm detection has attracted much recent attention. Nevertheless, the existing benchmark (MMSD) has some shortcomings that hinder the development of reliable multi-modal sarcasm detection system: (1) There are some spurious cues in MMSD, leading to the model bias learning; (2) The negative samples in MMSD are not always reasonable. To solve the aforementioned issues, we introduce MMSD2.0, a correction dataset that fixes the shortcomings of MMSD, by removing the spurious cues and re-annotating the unreasonable samples. Meanwhile, we present a novel framework called multi-view CLIP that is capable of leveraging multi-grained cues from multiple perspectives (i.e., text, image, and text-image interaction view) for multi-modal sarcasm detection. Extensive experiments show that MMSD2.0 is a valuable benchmark for building reliable multi-modal sarcasm detection systems and multi-view CLIP can significantly outperform the previous best baselines.",
+}
+```
+
+
+
+If you have any question, please issue the project or email [Shijue Huang](mailto:joehsj310@gmail.com) or [Libo Qin](mailto:lbqin@csu.edu.cn) and we will reply you soon.
